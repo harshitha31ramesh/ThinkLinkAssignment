@@ -1,0 +1,157 @@
+.chartAlign{
+    border: 1px solid #ffa50026;
+    margin-left: 18px;
+    max-width: 97%;
+    padding-top: 2%;
+}
+
+table {
+    width: 100%;
+  }
+  
+  tr.student-detail-row {
+    height: 0;
+  }
+  
+  tr.student-element-row:not(.student-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.student-element-row:not(.student-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .student-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .student-element-detail {
+    overflow: hidden;
+    padding-left: 5%;
+    background-color: #fff;
+  }
+  
+  .student-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+
+  section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+
+  .headingExpanded{
+
+    color: #000;
+    font-weight: 600;
+
+  }
+
+  .quantityBlue{
+    background: #d3e6f752;
+    /* padding-left: 15%; */
+    padding: 10%;
+
+  }
+
+
+  mat-checkbox-inner-container {
+    display: inline-block;
+    height: 14px;
+    color: inherit;
+    line-height: 0;
+    margin: auto;
+    margin-right: 8px;
+    order: 0;
+    color: grey;
+    /* padding-top: 48%; */
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 14px;
+    flex-shrink: 0;
+}
+
+
+  th.mat-header-cell {
+    text-align: left;
+    background: #fff;
+    /* border-top: 1px solid #00000042; */
+    border-color: #00000042;
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+  
+  .quantityMarron{
+    background: #80000047;;
+    padding: 10%;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+  .editIcon{
+    background: inherit;
+    margin-top: -50%;
+    color: black;
+    margin-left:240%
+  }
+  .delete{
+    background: inherit;
+    margin-top: -50%;
+    margin-left:155%
+  }
+
+  .linkBut{
+    border: none;
+    background: none;
+    color: red;
+    margin-left: 110%;
+    margin-top: -18%;
+    text-decoration-line: underline;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  
+  .student-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .student-element-description {
+    padding: 16px;
+  }
+  
+  .student-element-description-attribution {
+    opacity: 0.5;
+  }
